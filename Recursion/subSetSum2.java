@@ -8,7 +8,7 @@ public class subSetSum2 {
     public static void main(String[] args) {
         List<List<Integer>> res=new ArrayList<>();
         List<Integer> ds=new ArrayList<>();
-        int[] arr={1,1,2,2,2,3};
+        int[] arr={1,2,2};
         Arrays.sort(arr);
         getAllUniqueSubsets(arr,res,ds,0);
 
